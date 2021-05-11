@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem 9rem;
+    background-color: rgba(0, 66, 66, 0.877);
+}
+
+.div1 {
+    width: 100%;
+    position: relative;
+}
+
+.img1 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+.img1 h1 {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-size: 50px;
+}
+
+.img1 h2 {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    font-size: 25px;
+}
+
+header {
+    width: 100%;
+}
+
+header .navigationb {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: grey;
+}
+
+header .navigationb li {
+    padding: 1rem 2rem;
+    margin-right: 2rem;
+    position: relative;
+}
+
+header .navigationb li::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 50%;
+    background: white;
+    right: -50%;
+    top: 0;
+    transform: translateY(50%);
+}
+
+header .navigationb li:last-child::after {
+    width: 0;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.content-side {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 30%;
+    padding: 1rem 2rem;
+}
+
+.main {
+    width: 100%;
+    padding: 1rem 1rem;
+}
+
+.main h1 {
+    margin: 1rem;
+    color: white;
+}
+
+.main ul {
+    padding: 0 1rem;
+}
+
+.main ul li {
+    margin: 0.5rem;
+}
+
+.main-menu ul li a {
+    color: white;
+}
+
+.blok1 {
+    width: 100%;
+    padding: 1rem 1rem;
+}
+
+.blok1 h1 {
+    margin: 1rem;
+    color: white;
+}
+
+.blok1 span {
+    margin-bottom: 1rem;
+}
+
+.blok1 p {
+    margin-top: 1rem;
+    width: 80%;
+    text-justify: auto;
+}
+
+.contnt {
+    width: 70%;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.gallery {
+    width: 100%;
+    position: relative;
+    padding: 1rem 2rem;
+}
+
+.gallery h1 {
+    color: white;
+}
+
+.gallery .text1 {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgb(2, 1, 1);
+}
+
+.other {
+    display: flex;
+    padding: 1rem 2rem;
+    position: relative;
+    width: 100%;
+}
+
+.subscrip1 {
+    width: 50%;
+    padding: 0 0.5rem;
+}
+
+.subscrip1 h1 {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.service {
+    width: 50%;
+    padding: 0 0.5rem;
+    margin-left: 10px;
+}
+
+.services h1 {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.services p,
+.subscription p,
+.gallery p,
+.block p,
+span {
+    color: rgb(194, 190, 190);
+    margin-bottom: 1rem;
+}
+
+.services a,
+.subscription a {
+    color: white;
+    background-color: blanchedalmond;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+    border-top: 1px solid white;
+    color: white;
+}
